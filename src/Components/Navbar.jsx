@@ -9,8 +9,8 @@ const Navbar = () => {
     const [clicked, setClicked] = useState(false)
     console.log(clicked)
     return (
-        <>
-        <nav className="max-[640px]:hidden flex justify-between items-center border-b px-10 min-h-[60px]">
+        <div>
+        <nav className="max-[640px]:hidden w-full flex justify-between items-center border-b px-10 min-h-[60px]">
             <h2 className="text-xl font-semibold">Dashboard</h2>
             <ul className="flex justify-center items-center gap-5">
                 <li className="tooltip tooltip-bottom" data-tip="Requests"><a href="#"><GrSend className="text-2xl"/></a></li>
@@ -46,7 +46,7 @@ const Navbar = () => {
         </div>
         <h2 className="text-xl font-semibold ps-2">Dashboard</h2>
         </nav>
-        </>
+        </div>
     );
 };
 

@@ -1,0 +1,12 @@
+ [
+    {
+        "name": "Jay",
+        "email": "jay@higherhc.co.uk",
+        "image": "../src/assets/img/healthcare.png"
+    },
+    {
+        "name": "Jane",
+        "email": "jane@higherhc.co.uk",
+        "image": "../src/assets/img/healthcare.png"
+    }
+]

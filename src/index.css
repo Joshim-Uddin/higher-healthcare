@@ -1,7 +1,14 @@
+@import url("leaflet/dist/leaflet.css");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+  .leaflet-container {
+    width: 100%;
+    max-height: 400px;
+  }
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
